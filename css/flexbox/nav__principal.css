@@ -7,3 +7,16 @@
 .cabecalhoPrincipal-nav {
     display: flex;
 }
+@media screen and (max-width: 768px){
+  .cabecalhoPrincipal-nav {
+    flex-direction:column;
+  }
+  .cabecalhoPrincipal .container{
+    flex-direction: column;
+    align-items: initial;
+    text-align: center;
+  }
+  .cabecalhoPrincipal-nav-link-app{
+    order: -1;
+  }
+}

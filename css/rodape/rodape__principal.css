@@ -18,3 +18,22 @@
 .rodapePrincipal-contatoForm-fieldset {
     display: flex;
 }
+
+@media screen and (max-width: 768px){
+    .rodapePrincipal-patrocinadores .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodapePrincipal-contatoForm{
+        width: 100%;
+    }
+
+    .rodapePrincipal-patrocinadores-list{
+        margin: 0;
+        width: 100%;
+    }
+    .rodapePrincipal-contatoForm-fieldset{
+        justify-content: center;
+    }
+}

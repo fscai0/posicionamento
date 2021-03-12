@@ -7,3 +7,12 @@
     display: flex;
     flex-wrap: wrap;
 }
+@media screen and (max-width: 768px){
+    .conteudoPrincipal-cursos{
+        flex-direction: column;
+    }
+    .conteudoPrincipal-cursos-link{
+
+        width: 100%;
+    }
+}

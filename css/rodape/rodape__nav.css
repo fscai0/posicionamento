@@ -6,3 +6,9 @@
         flex-flow: column wrap;
         height: 200px;
     }
+
+@media screen and (max-width: 768px){
+    .rodapePrincipal-navMap-list{
+        height: 100%;
+    }
+}
