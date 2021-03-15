@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     flex-flow substitui os outros dois a cima*/
         flex-flow: column wrap;
-        height: 200px;
+        height: 250px;
     }
 
 @media screen and (max-width: 768px){
